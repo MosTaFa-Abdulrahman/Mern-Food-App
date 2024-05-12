@@ -1,0 +1,42 @@
+.user-list {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.user-list.h1 {
+  margin-bottom: 20px;
+}
+
+.user-list.ul {
+  list-style: none;
+  padding: 0;
+}
+
+.user-list.li {
+  margin-bottom: 10px;
+}
+
+.pagination {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+}
+.pagination.li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.pagination.button {
+  border: none;
+  background: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.pagination.button:hover {
+  text-decoration: underline;
+}
+
+.pagination.active button {
+  font-weight: bold;
+}
